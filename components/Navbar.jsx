@@ -194,6 +194,7 @@ const Navbar = () => {
                       role="menuitem"
                       tabIndex="-1"
                       id="user-menu-item-0"
+                      onClick={() => setIsProfileMenuOpen(false)}
                     >
                       Your Profile
                     </Link>
@@ -203,6 +204,7 @@ const Navbar = () => {
                       role="menuitem"
                       tabIndex="-1"
                       id="user-menu-item-2"
+                      onClick={() => setIsProfileMenuOpen(false)}
                     >
                       Saved Properties
                     </Link>
@@ -231,6 +233,7 @@ const Navbar = () => {
         <div id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
             <Link
+              onClick={() => setIsMobileMenuOpen(false)}
               href="/"
               className={`${
                 pathname === "/" ? "bg-black" : ""
@@ -239,6 +242,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
+              onClick={() => setIsMobileMenuOpen(false)}
               href="/properties"
               className={`${
                 pathname === "/properties" ? "bg-black" : ""
@@ -248,6 +252,7 @@ const Navbar = () => {
             </Link>
             {session && (
               <Link
+                onClick={() => setIsMobileMenuOpen(false)}
                 href="/properties/add"
                 className={`${
                   pathname === "/properties/add" ? "bg-black" : ""
