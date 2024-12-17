@@ -79,28 +79,12 @@ This project is based on **Traversy Media's course "Next.js From Scratch"**.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the project.
-2. Create a feature branch: `git checkout -b feature/YourFeature`.
-3. Commit changes: `git commit -m 'Add YourFeature'`.
-4. Push to the branch: `git push origin feature/YourFeature`.
-5. Open a Pull Request.
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 📧 Contact
 
 If you have any questions or suggestions, feel free to reach out:
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your Name](https://linkedin.com/in/your-profile)
+- **Email**: k.kawakami08@gmail.com
+- **LinkedIn**: [Kaori Kawakami](https://www.linkedin.com/in/k-kawakami/
+)
 
 ---
 
