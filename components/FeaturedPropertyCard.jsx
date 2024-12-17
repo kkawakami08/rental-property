@@ -22,16 +22,14 @@ const FeaturedPropertyCard = ({ property }) => {
 
   return (
     <div className="bg-white rounded-xl shadow-md relative flex flex-col md:flex-row">
-      <Link href={`/properties/${property._id}`}>
-        <Image
-          src={property.images[0]}
-          width={0}
-          height={0}
-          sizes="100vw"
-          alt=""
-          className="w-full h-auto rounded-t-xl md:rounded-tr-none md:rounded-l-xl  md:w-2/5"
-        />
-      </Link>
+      <Image
+        src={property.images[0]}
+        width={0}
+        height={0}
+        sizes="100vw"
+        alt=""
+        className="w-full h-auto rounded-t-xl md:rounded-tr-none md:rounded-l-xl  md:w-2/5 "
+      />
       <div className="p-6">
         <h3 className="text-xl font-bold">{property.name}</h3>
         <div className="text-gray-600 mb-4">{property.type}</div>
