@@ -48,9 +48,19 @@ This project is based on **Traversy Media's course "Next.js From Scratch"**.
    Create a `.env.local` file in the root directory and add the following:
    ```bash
    MONGODB_URI=your-mongodb-connection-string
+   NEXT_PUBLIC_DOMAIN=http://localhost:3000
+   NEXT_PUBLIC_API_DOMAIN=http://localhost:3000/api
+   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_URL_INTERNAL=http://localhost:3000
+   NEXTAUTH_SECRET="openssl rand -base64 32" in terminal
+   CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+   CLOUDINARY_API_KEY=your-cloudinary-api-key
+   CLOUDINARY_API_SECRET=your-cloudinary-api-secret
    GOOGLE_CLIENT_ID=your-google-client-id
    GOOGLE_CLIENT_SECRET=your-google-client-secret
-   NEXTAUTH_URL=http://localhost:3000
+   NEXT_PUBLIC_GOOGLE_GEOCODING_API_KEY=
+   NEXT_PUBLIC_MAPBOX_TOKEN=
+
    ```
 
 4. **Run the Development Server**
