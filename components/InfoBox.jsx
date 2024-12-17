@@ -12,7 +12,7 @@ const InfoBox = ({
       <h2 className={`text-2xl font-bold ${textColor}`}>{heading}</h2>
       <p className={`mt-2 mb-4 ${textColor}`}>{children}</p>
       <Link
-        href={buttonInfo.link}
+        href={heading === "For Property Owners" ? "" : buttonInfo.link}
         className={`inline-block  text-white rounded-lg px-4 py-2 hover:bg-gray-700 ${buttonInfo.bgColor}`}
       >
         {buttonInfo.text}

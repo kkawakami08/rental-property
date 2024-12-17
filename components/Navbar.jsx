@@ -114,12 +114,13 @@ const Navbar = () => {
                 {providers &&
                   Object.values(providers).map((provider, index) => (
                     <button
+                      disabled
                       onClick={() => signIn(provider.id)}
                       key={index}
                       className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                     >
                       <FaGoogle className="text-white mr-2" />
-                      <span>Login or Register</span>
+                      <span>Login Disabled for Database Purposes</span>
                     </button>
                   ))}
               </div>
@@ -263,12 +264,13 @@ const Navbar = () => {
               providers &&
               Object.values(providers).map((provider, index) => (
                 <button
+                  disabled
                   onClick={() => signIn(provider.id)}
                   key={index}
                   className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                 >
                   <FaGoogle className="text-white mr-2" />
-                  <span>Login or Register</span>
+                  <span>Login Disabled for Database Purposes</span>
                 </button>
               ))}
           </div>
