@@ -21,7 +21,7 @@ const MainLayout = ({ children }) => {
         <html>
           <body>
             <Navbar />
-            <main>{children}</main>
+            <main className="min-h-screen">{children}</main>
             <Footer />
             <ToastContainer />
           </body>
